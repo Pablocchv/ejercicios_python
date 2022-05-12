@@ -1,0 +1,62 @@
+Ejercicio 1
+Escribir un programa que pregunte el nombre completo del usuario (nombre y apellidos) en la consola y después muestre por pantalla el nombre completo del usuario tres veces, una con todas las letras minúsculas, otra con todas las letras mayúsculas y otra solo con la primera letra del nombre y de los apellidos en mayúscula. El usuario puede introducir su nombre combinando mayúsculas y minúsculas como quiera.
+
+Ejercicio 2
+Los teléfonos de una empresa tienen el siguiente formato prefijo-número-extension donde el prefijo es el código del país +34, y la extensión tiene dos dígitos (por ejemplo +34-913724710-56). Escribir un programa que pregunte por un número de teléfono con este formato y muestre por pantalla el número de teléfono sin el prefijo y la extensión. Además, debe reconocer el prefijo la comunidad autónoma.
+
+Ejercicio 3
+Escribir un programa que pregunte por consola por los animales de un zoo, separados por asteriscos, y muestre por pantalla cada uno de los animales en una línea distinta.
+
+Ejercicio 4
+Escribir un programa que lea un entero positivo, n, introducido por el usuario y después muestre en pantalla la suma de todos los enteros desde 1 hasta n.
+
+Ejercicio 5
+Escribir un programa que pida al usuario dos números enteros y muestre por pantalla la <n> entre <m> da un cociente <c> y un resto <r> donde <n> y <m> son los números introducidos por el usuario, y <c> y <r> son el cociente y el resto de la división entera respectivamente.
+
+Ejercicio 6
+Una farmacia tiene mucho éxito en dos de sus productos: mascarillas y gel hidroalcohólico. Suele hacer venta por correo y la empresa de logística les cobra por peso de cada paquete así que deben calcular el peso de las mascarillas y geles que saldrán en cada paquete a demanda. Cada mascarilla pesa 112 g y cada gel 250 g. Escribir un programa que lea el número de mascarillas y geles vendidos en el último pedido y calcule el peso total del paquete que será enviado.
+
+Ejercicio 7
+En una determinada empresa, sus productos son evaluados al final de cada año. Los puntos que pueden obtener en la evaluación comienzan en 0.0 y pueden ir aumentando, traduciéndose en mejores opiniones. Los puntos que pueden conseguir los productos pueden ser 0.0, 0.4, 0.6 o más, pero no valores intermedios entre las cifras mencionadas. A continuación, se muestra una tabla con los niveles correspondientes a cada puntuación. La cantidad de reputación conseguida en cada nivel es de 1.5 puntos multiplicada por la puntuación del nivel.
+Mal producto: 0.0
+Aceptable: 0.4
+Reseñable: 0.6 o más
+Escribir un programa que lea la puntuación del producto e indique su nivel de evaluación, así como la reputación del producto.
+
+Ejercicio 8
+Escribir un programa en el que se pregunte al usuario por una frase y una letra, y muestre por pantalla el número de veces que aparece la letra en la frase y el número total de caracteres de la frase sin espacios en blanco.
+
+Ejercicio 9
+Escribir un programa que muestre el eco de todo lo que el usuario introduzca hasta que el usuario escriba “BASTA!” que terminará.
+
+Ejercicio 10
+Escribir un programa que almacene los números de 0 a 35 en una lista, elimine de la lista los números que ocupen posiciones múltiplos de 3, y muestre por pantalla la lista resultante.
+Ejercicio 11
+Escribir una función que calcule el total de una factura tras aplicarle el IVA. La función debe recibir la cantidad sin IVA y el porcentaje de IVA a aplicar, y devolver el total de la factura. Si se invoca la función sin pasarle el porcentaje de IVA, deberá aplicar un 21%
+
+
+Ejercicio 12
+Escribir un programa que reciba una cadena de caracteres y devuelva un diccionario con cada palabra que contiene y su frecuencia. Escribir otra función que reciba el diccionario generado con la función anterior y devuelva una tupla con la palabra más repetida y su frecuencia.
+
+
+Ejercicio 13
+Escribir una función que reciba una muestra de números y devuelva los valores atípicos, es decir, los valores cuya puntuación típica sea mayor que 3 o menor que -3. Nota: La puntuación típica de un valor se obtiene restando la media y dividiendo por la desviación típica de la muestra.
+
+
+Ejercicio 14
+Escribir un programa que acceda a un fichero de internet mediante su url y muestre por pantalla el número de palabras que contiene.
+
+
+Ejercicio 15
+Escribir un programa para gestionar un listín telefónico con los nombres y los teléfonos de los clientes de una empresa. El programa incorporar funciones crear el fichero con el listín si no existe, para consultar el teléfono de un cliente, añadir el teléfono de un nuevo cliente, eliminar el teléfono de un cliente y modificar el nombre o el teléfono de un registro ya creado. El listín debe estar guardado en el fichero de texto listin.txt donde el nombre del cliente y su teléfono deben aparecer separados por comas y cada cliente en una línea distinta.
+Ejercicio 16
+De una lista de números, obtener el enésimo mayor número.Tanto el numero enesimo como la lista es introducida por usuario. p.ej. de [1,2,9,8,7,6,5,4] el 4 mayor número es 6.
+
+Ejercicio 17
+Una página web básica con el sevidor web de python (o flask)
+
+Ejercicio 18
+Se leen 2 números en formato string, hay que implementar la suma según nos la enseñaron en el colegio, es decir:
+Desde el dígito menos significativo al más significativo (de derecha a izquierda):
+
+Se suman los dígitos de los dos números de la misma posición, si la cifra resultante es >=10, se añade un 1 a la suma de los dígitos de la posición anterior. La cifra resultante (módulo 10) es el resultado de esa posición.
